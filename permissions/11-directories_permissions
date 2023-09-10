@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ugo+dx permissions
+chmod -R d755 /holbertonschool-shell/permissions
