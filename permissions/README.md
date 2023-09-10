@@ -6,7 +6,7 @@ Each file contains a seperate answer to a question about permissions.
 4. Creates empty file - touch filename
 5. Adds execute permission to owner of file - chmod u+x filename
 6. Adds execute permission to owner and group, read permissions to other - chmod u+rwx,g+rx,o+r filename 
-7. Adds execute permission to owner, group owner, and other users -
+7. Adds execute permission to owner, group owner, and other users - chmod ugo+x filename
 8. Sets permissions to owner -no permission, group - no permissions, other - all permissions
 9. Sets mode of file 'hello' to -rwxr-x-wx
 10. Sets a file permission to the same as another file
