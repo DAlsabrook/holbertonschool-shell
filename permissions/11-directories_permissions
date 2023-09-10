@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod -R ugo+x /holbertonschool-shell
+sudo chmod -R ugo+x /holbertonschool-shell/permissions
