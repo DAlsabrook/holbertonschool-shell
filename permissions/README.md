@@ -9,7 +9,7 @@ Each file contains a seperate answer to a question about permissions.
 7. Adds execute permission to owner, group owner, and other users - {chmod ugo+x FileName}
 8. Sets permissions to owner -no permission, group - no permissions, other - all permissions {chmod 007 FileName}
 9. Sets mode of file 'hello' to -rwxr-x-wx - {chmod 753 FileName}
-10. Sets a file permission to the same as another file
+10. Sets a file permission to the same as another file - {chmod --reference=olleh hello}
 11. Adds execute permission to all subdirectories of current directory for all users, owner, groups
 12. Creates directory with name and permissions 751
 13. Changes the group owner of a file
