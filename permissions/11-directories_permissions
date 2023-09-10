@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ugo+X /holbertonschool-shell
+chmod -R ugo+x holbertonschool-shell
