@@ -2,8 +2,8 @@ Each file contains a seperate answer to a question about permissions.
 0. Switch current user - su betty
 1. Prints effective username of current user - whoami
 2. Prints all groups the current user is in - groups
-3. Changes owner of file -
-4. Creates empty file -
+3. Changes owner of file - chown new-owner filename
+4. Creates empty file - touch filename
 5. Adds execute permission to owner of file -
 6. Adds execute permission to owner and group, read permissions to other - 
 7. Adds execute permission to owner, group owner, and other users -
