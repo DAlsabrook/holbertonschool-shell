@@ -4,7 +4,7 @@ Each file contains a seperate answer to a question about permissions.
 2. Prints all groups the current user is in - groups
 3. Changes owner of file - chown new-owner filename
 4. Creates empty file - touch filename
-5. Adds execute permission to owner of file -
+5. Adds execute permission to owner of file - chmod u+x filename
 6. Adds execute permission to owner and group, read permissions to other - 
 7. Adds execute permission to owner, group owner, and other users -
 8. Sets permissions to owner -no permission, group - no permissions, other - all permissions
