@@ -2,5 +2,5 @@
 #a for loop loops a code a specified amount of times
 for _ in {1..10}
 do
-	echo best school
+	echo Best School
 done
