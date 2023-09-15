@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-while [i=1 -le 5]
+#prints string 10 times
+i=1
+while [$i -le 10]
 do
 	echo Best School
+	i= $(($i +1))
 done
