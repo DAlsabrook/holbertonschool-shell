@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#idk
+m=0
+h=0
+while [	$h -le 12 ]
+do
+	if [ $m == 0 ]
+	then
+		echo "Hour: $h"
+	elif [ $m == 59 ]
+	then
+		h=$((h+1))
+		m=0
+		if [ $h == 13 ]
+		then
+		break;
+		fi
+		echo "Hour: $h"
+	fi
+	m=$((m+1))
+	echo $m
+done
