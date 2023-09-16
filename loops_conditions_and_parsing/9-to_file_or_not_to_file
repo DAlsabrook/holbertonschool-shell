@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-#nesting if statements
-if -f School
+if -f school
 then
+	echo "school file is a regular file"
 	echo "school file exists"
-	if -s School	
+	if -s school	
 	then
 		echo "school file is empty"
 	else
