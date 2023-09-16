@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # nesting if statements
-if [-f school]
+if [ -f school ]
 then
 	echo "school file is a regular file"
 	echo "school file exists"
-	if [-s school]	
+	if [ -s school ]	
 	then
 		echo "school file is empty"
 	else
