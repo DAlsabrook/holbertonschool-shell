@@ -8,10 +8,8 @@ then
 	then
 		echo "school file is empty"
 	else
-	then
 		echo "school file is not empty"
 	fi
 else
-then
 	echo "school file does not exist"
 fi
