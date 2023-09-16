@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# nesting if statements
 if -f school
 then
 	echo "school file is a regular file"
