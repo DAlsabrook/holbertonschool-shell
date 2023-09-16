@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#idk
+for i in *
+do
+	echo "$i" | cut -b 3-
+done
