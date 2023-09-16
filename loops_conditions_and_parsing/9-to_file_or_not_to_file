@@ -9,7 +9,7 @@ if [ -f school ]; then
 		echo "school file exist"
 		echo "school file is empty"
 	fi
-	echo "school file is a regular file"
+	echo "school is a regular file"
 else
 	echo "school file does not exist"
 fi
