@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#nesting if statements
 if -f School
 then
 	echo "school file exists"
