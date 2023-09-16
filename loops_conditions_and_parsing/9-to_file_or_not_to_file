@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # nesting if statements
-if [ -f school == true];
+if (( -f school ));
 then
 	echo "school file exists"
 	if [ -s school ];	
