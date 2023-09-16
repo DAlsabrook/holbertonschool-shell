@@ -2,5 +2,5 @@
 #idk
 for i in *
 do
-	echo "$i" | cut -b 3-
+	echo "$i" | cut -d "-" -f2
 done
