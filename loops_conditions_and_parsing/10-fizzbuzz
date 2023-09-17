@@ -7,6 +7,7 @@ do
 	then
 		echo "Fizz"
 		if [ $i%3=0 && $i%5=0 ];
+		then
 			echo "FizzBuzz"
 		fi
 	elif [ $i%5=0 ];
