@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#idk
+while read p
+do
+	echo $p
+done < /etc/passwd
