@@ -2,4 +2,4 @@
 #while read again with IFS
 while IFS=":" read -r var1 var2 var3 var4 var5 var6 var7; do
 	echo "The user $var1 is part of the $var2 gang, lives in $var3 and rides $var4. $var5's place is protected by the passcode $var6, more info about the user here: $var7"
-done
+done < /etc/passwd
