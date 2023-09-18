@@ -2,5 +2,5 @@
 #idk
 while read p
 do
-	echo $p
+	echo "$p"
 done < /etc/passwd
